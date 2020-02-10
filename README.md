@@ -34,4 +34,4 @@ public void CreateLeadOneFromRohansAccount() throws InterruptedException {
 		driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/div/input")).sendKeys(Keys.DOWN);
 		driver.findElement(By.xpath("//*[@id=\"select2-drop\"]/div/input")).sendKeys(Keys.ENTER);
 		driver.findElement(By.xpath("//button[@id='save_btn']")).click();
-		Thread.sleep(3000);
+	
